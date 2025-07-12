@@ -1,0 +1,47 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Effecets" Type="Plist" ID="96f1ab16-58bf-4b1d-8110-7f5564823f7b" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="res/effects/activeBtn/1.png" />
+      <FilePathData Path="res/effects/activeBtn/2.png" />
+      <FilePathData Path="res/effects/activeBtn/3.png" />
+      <FilePathData Path="res/effects/activeBtn/4.png" />
+      <FilePathData Path="res/effects/activeBtn/5.png" />
+      <FilePathData Path="res/effects/activeBtn/6.png" />
+      <FilePathData Path="res/effects/activeBtn/7.png" />
+      <FilePathData Path="res/effects/activeBtn/8.png" />
+      <FilePathData Path="res/effects/autorat/1.png" />
+      <FilePathData Path="res/effects/autorat/10.png" />
+      <FilePathData Path="res/effects/autorat/11.png" />
+      <FilePathData Path="res/effects/autorat/12.png" />
+      <FilePathData Path="res/effects/autorat/13.png" />
+      <FilePathData Path="res/effects/autorat/14.png" />
+      <FilePathData Path="res/effects/autorat/15.png" />
+      <FilePathData Path="res/effects/autorat/2.png" />
+      <FilePathData Path="res/effects/autorat/3.png" />
+      <FilePathData Path="res/effects/autorat/4.png" />
+      <FilePathData Path="res/effects/autorat/5.png" />
+      <FilePathData Path="res/effects/autorat/6.png" />
+      <FilePathData Path="res/effects/autorat/7.png" />
+      <FilePathData Path="res/effects/autorat/8.png" />
+      <FilePathData Path="res/effects/autorat/9.png" />
+      <FilePathData Path="res/effects/activeBtn/10.png" />
+      <FilePathData Path="res/effects/activeBtn/11.png" />
+      <FilePathData Path="res/effects/activeBtn/12.png" />
+      <FilePathData Path="res/effects/activeBtn/13.png" />
+      <FilePathData Path="res/effects/activeBtn/14.png" />
+      <FilePathData Path="res/effects/activeBtn/15.png" />
+      <FilePathData Path="res/effects/main/0.png" />
+      <FilePathData Path="res/effects/main/1.png" />
+      <FilePathData Path="res/effects/main/2.png" />
+      <FilePathData Path="res/effects/main/3.png" />
+      <FilePathData Path="res/effects/main/4.png" />
+      <FilePathData Path="res/effects/main/5.png" />
+      <FilePathData Path="res/effects/main/6.png" />
+      <FilePathData Path="res/effects/main/7.png" />
+      <FilePathData Path="res/effects/main/8.png" />
+      <FilePathData Path="res/effects/main/9.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

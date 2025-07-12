@@ -1,0 +1,48 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Console" Type="Plist" ID="2fc382c4-8d69-4bf9-92c6-26d3038423dd" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="res/private/console/bg_bUP.png" />
+      <FilePathData Path="res/private/console/bg_process.png" />
+      <FilePathData Path="res/private/console/bg_procss.png" />
+      <FilePathData Path="res/private/console/btn_process.png" />
+      <FilePathData Path="res/private/console/custom.png" />
+      <FilePathData Path="res/private/console/down.png" />
+      <FilePathData Path="res/private/console/hero_exp.png" />
+      <FilePathData Path="res/private/console/hero_hp.png" />
+      <FilePathData Path="res/private/console/hero_mp.png" />
+      <FilePathData Path="res/private/console/hp1.png" />
+      <FilePathData Path="res/private/console/hp2.png" />
+      <FilePathData Path="res/private/console/hp3.png" />
+      <FilePathData Path="res/private/console/input_bg.png" />
+      <FilePathData Path="res/private/console/num.png" />
+      <FilePathData Path="res/private/console/pro.png" />
+      <FilePathData Path="res/private/console/process.png" />
+      <FilePathData Path="res/private/console/up.png" />
+      <FilePathData Path="res/private/player_show/body_women.png" />
+      <FilePathData Path="res/private/player_show/body_man.png" />
+      <FilePathData Path="res/private/joystick/0.png" />
+      <FilePathData Path="res/private/joystick/1.png" />
+      <FilePathData Path="res/private/joystick/2.png" />
+      <FilePathData Path="res/private/joystick/qiehuan001.png" />
+      <FilePathData Path="res/private/joystick/qiehuan002.png" />
+      <FilePathData Path="res/private/misson/bg_HMP.png" />
+      <FilePathData Path="res/private/misson/hpBar.png" />
+      <FilePathData Path="res/private/misson/shuzhi.png" />
+      <FilePathData Path="res/private/misson/Top_BG.png" />
+      <FilePathData Path="res/private/minimap/1007.png" />
+      <FilePathData Path="res/private/minimap/1011.png" />
+      <FilePathData Path="res/private/MainUi/fotc.png" />
+      <FilePathData Path="res/private/MainUi/fotc2.png" />
+      <FilePathData Path="res/private/player/btn_Hero.png" />
+      <FilePathData Path="res/private/shop/anniu.png" />
+      <FilePathData Path="res/private/shop/sel.png" />
+      <FilePathData Path="res/private/shop/shop_ok.png" />
+      <FilePathData Path="res/private/shop/shopItem.png" />
+      <FilePathData Path="res/private/shop/01.png" />
+      <FilePathData Path="res/private/tip/bg_icon_NPC.png" />
+      <FilePathData Path="res/private/joystick/4.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

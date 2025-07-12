@@ -1,0 +1,2 @@
+;ID,Name,Type,HightLight,PickUp,ShowName,Special
+;Type => 0:其他 1:药剂 2:技能书籍 3:特殊物品 4:基础装备 5:沃玛系列 6:祖玛 7:赤月 8:仓月 9:魔龙 10:雷炎 11:雪域 12:狐月

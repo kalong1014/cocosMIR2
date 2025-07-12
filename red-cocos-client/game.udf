@@ -1,0 +1,47 @@
+<UserData Version="3.10.0.0">
+  <Properties>
+    <Item Key="CocosRecentOperation">
+      <Value ctype="CocosRecentOperation">
+        <LastPublishType Value="Resource" />
+        <IsLastPublish Value="True" />
+        <LastRunType Value="Windows" />
+      </Value>
+    </Item>
+    <Item Key="PackageParamsKey">
+      <Value ctype="PackageParams">
+        <LuaIsEncrypt Value="False" />
+        <LuaEncryptKey Value="" />
+        <LuaEncryptSign Value="" />
+        <Android_PackageName Value="com.red.legend" />
+        <AndroidkeyStore Value="" />
+        <AndroidVersion Value="android-28" />
+        <iOS_Target Value="cocos2dMir2-mobile" />
+        <iOS_BundleID Value="" />
+        <Platform Value="Android" />
+        <RunPlatform Value="Windows" />
+        <FrameworkVersion Value="cocos2d-x-3.10" />
+        <IsDebugKeystore Value="True" />
+        <KeystorePassword Value="" />
+        <KeystoreAliasName Value="" />
+        <KeystoreAliasPassword Value="" />
+        <EnableSourceMap Value="False" />
+        <EnableHTML5Advanced Value="False" />
+      </Value>
+    </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="csd/ExChange.csd" />
+          <FilePathData Path="csd/Bottom_right.csd" />
+          <FilePathData Path="csd/Guild.csd" />
+          <FilePathData Path="csd/Login.csd" />
+          <FilePathData Path="csd/MinMap.csd" />
+          <FilePathData Path="csd/Character.csd" />
+          <FilePathData Path="csd/Bag.csd" />
+          <FilePathData Path="res/Skills.csi" />
+        </OpenedDocuments>
+        <ActiveDocument Path="res/Skills.csi" />
+      </Value>
+    </Item>
+  </Properties>
+</UserData>
