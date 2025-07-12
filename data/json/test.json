@@ -1,0 +1,132 @@
+{
+	"titleDirectoryArray": [{
+			"titleContent": "游戏公告",
+			"newTitle": false
+		},
+
+		{
+			"titleContent": "合服通知",
+			"newTitle": false
+		}
+
+	],
+	"noticeContentArray": [
+		[{
+				"positionX": 0,
+				"positionY": 10,
+				"fontSize": 20,
+				"colorValue": 255,
+				"content": "请勿相信任何渠道、玩家所说的充值折扣信息，"
+			},
+			{
+				"positionX": 0,
+				"positionY": 40,
+				"fontSize": 20,
+				"colorValue": 255,
+				"content": "发现有充值折扣或者宣传充值折扣的、一律严"
+			},
+			{
+				"positionX": 0,
+				"positionY": 70,
+				"fontSize": 20,
+				"colorValue": 255,
+				"content": "肃处理，后果自负，欢迎大家积极举报本网络"
+			},
+			{
+				"positionX": 0,
+				"positionY": 100,
+				"fontSize": 20,
+				"colorValue": 255,
+				"content": "游戏适合年满16周年以上的用户使用；请您确"
+			},
+			{
+				"positionX": 0,
+				"positionY": 130,
+				"fontSize": 20,
+				"colorValue": 255,
+				"content": "定已如实名注册。为了您的健康，请合理控制"
+			},
+			{
+				"positionX": 0,
+				"positionY": 160,
+				"fontSize": 20,
+				"colorValue": 255,
+				"content": "游戏时间"
+			},
+			{
+				"positionX": 0,
+				"positionY": 190,
+				"fontSize": 20,
+				"colorValue": 249,
+				"content": "玩家充值完成后，请务必点击(领取元宝)(在线"
+			},
+			{
+				"positionX": 0,
+				"positionY": 220,
+				"fontSize": 20,
+				"colorValue": 249,
+				"content": "充值界面或元宝使者处)，领取元宝后激活相关"
+			},
+			{
+				"positionX": 0,
+				"positionY": 250,
+				"fontSize": 20,
+				"colorValue": 249,
+				"content": "充值活动"
+			},
+			{
+				"positionX": 0,
+				"positionY": 280,
+				"fontSize": 20,
+				"colorValue": 255,
+				"content": "一天多区，宣传拉满，保证人气火爆！所有小"
+			},
+			{
+				"positionX": 0,
+				"positionY": 310,
+				"fontSize": 20,
+				"colorValue": 255,
+				"content": "怪BOSS均可爆充值，爆顶级；一切靠打，自"
+			},
+			{
+				"positionX": 0,
+				"positionY": 340,
+				"fontSize": 20,
+				"colorValue": 255,
+				"content": "由交易，元宝装备自行定价交易；合区合理，"
+			},
+			{
+				"positionX": 0,
+				"positionY": 370,
+				"fontSize": 20,
+				"colorValue": 255,
+				"content": "时间为王，公平公正稳定开放，长久更新"
+			}
+
+		],
+		
+		[{
+				"positionX": 0,
+				"positionY": 10,
+				"fontSize": 20,
+				"colorValue": 255,
+				"content": "合服规则：一天多区，开区第二天16:30合服；"
+			},
+			{
+				"positionX": 0,
+				"positionY": 40,
+				"fontSize": 20,
+				"colorValue": 255,
+				"content": "保证人气，保证激情！"
+			},
+			{
+				"positionX": 0,
+				"positionY": 70,
+				"fontSize": 20,
+				"colorValue": 255,
+				"content": "合区安排:"
+			}
+
+		]
+	]
+}

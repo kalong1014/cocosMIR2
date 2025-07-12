@@ -1,0 +1,7 @@
+;编号（最多7个。决定按钮位置）,是否生成?图片地址,按钮状态,脚本命令,最多11个
+1,1,gameres/ui/btn_paimai.png,2,@UserCmd100
+2,1,gameres/ui/btn001.png,2,@UserCmd100
+3,1,gameres/ui/btn002.png,2,@UserCmd100
+4,1,gameres/ui/btn003.png,2,@UserCmd100
+5,1,gameres/ui/btn004.png,2,@UserCmd100
+6,1,gameres/ui/btn005.png,2,@UserCmd100

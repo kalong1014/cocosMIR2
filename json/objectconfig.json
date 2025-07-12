@@ -1,0 +1,626 @@
+{
+    "HA":  {
+    "ActStand": {"start": 0, "frame": 4, "skip": 4, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 64, "frame": 6, "skip": 2, "ftime": 85, "usetick": 2},
+    "ActRun": {"start": 128, "frame": 6, "skip": 2, "ftime": 85, "usetick": 3},
+    "ActRushLeft": {"start": 128, "frame": 3, "skip": 5, "ftime": 100, "usetick": 3},
+    "ActRushRight": {"start": 131, "frame": 3, "skip": 5, "ftime": 100, "usetick": 3},
+    "ActWarMode": {"start": 192, "frame": 1, "skip": 0, "ftime": 20, "usetick": 0},       
+    "ActHit": {"start": 200, "frame": 6, "skip": 2, "ftime": 80, "usetick": 0},
+    "ActHeavyHit": {"start": 264, "frame": 6, "skip": 2, "ftime": 80, "usetick": 0},
+    "ActBigHit": {"start": 328, "frame": 8, "skip": 0, "ftime": 60, "usetick": 0},
+    "ActFireHitReady": {"start": 192, "frame": 6, "skip": 4, "ftime": 60, "usetick": 0},
+    "ActSpell": {"start": 392, "frame": 6, "skip": 2, "ftime": 100, "usetick": 0},
+    "ActSitdown": {"start": 456, "frame": 2, "skip": 0, "ftime": 300, "usetick": 0},
+    "ActStruck": {"start": 472, "frame": 3, "skip": 5, "ftime": 60, "usetick": 0},
+    "ActDie": {"start": 536, "frame": 4, "skip": 4, "ftime": 120, "usetick": 0},
+
+
+    "ActContinuousHits":{
+        "ach0":{"start": 0, "frame": 6, "skip": 4, "ftime": 80, "usetick": 0}, 
+        "ach1":{"start": 80, "frame": 8, "skip": 2, "ftime": 90, "usetick": 0}, 
+        "ach2":{"start": 160, "frame": 15, "skip": 5, "ftime": 80, "usetick": 0}, 
+        "ach3":{"start": 320, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0}, 
+        "ach4":{"start": 400, "frame": 13, "skip": 7, "ftime": 80, "usetick": 0},
+        "ach5":{"start": 560, "frame": 10, "skip": 0, "ftime": 100, "usetick": 0}, 
+        "ach6":{"start": 640, "frame": 6, "skip": 4, "ftime": 80, "usetick": 0}, 
+        "ach7":{"start": 720, "frame": 6, "skip": 4, "ftime": 80, "usetick": 0}, 
+        "ach8":{"start": 800, "frame": 8, "skip": 2, "ftime": 80, "usetick": 0}, 
+        "ach9":{"start": 880, "frame": 10, "skip": 0, "ftime": 80, "usetick": 0}, 
+        "ach10":{"start": 960, "frame": 10, "skip": 0, "ftime": 80, "usetick": 0}, 
+        "ach11":{"start": 1040, "frame": 13, "skip": 7, "ftime": 60, "usetick": 0}, 
+        "ach12":{"start": 1200, "frame": 6, "skip": 4, "ftime": 80, "usetick": 0},
+        "ach13":{"start": 1280, "frame": 6, "skip": 4, "ftime": 80, "usetick": 0},
+        "ach14":{"start": 1360, "frame": 9, "skip": 1, "ftime": 80, "usetick": 0}, 
+        "ach15":{"start": 1440, "frame": 12, "skip": 8, "ftime": 60, "usetick": 0},
+        "ach16":{"start": 1600, "frame": 12, "skip": 8, "ftime": 60, "usetick": 0}, 
+        "ach17":{"start": 1760, "frame": 14, "skip": 6, "ftime": 60, "usetick": 0} 
+    }
+
+
+    },
+
+ "MA9":   {
+    "ActStand": {"start": 0, "frame": 1, "skip": 7, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 64, "frame": 6, "skip": 2, "ftime": 120, "usetick": 3},
+    "ActAttack": {"start": 64, "frame": 6, "skip": 2, "ftime": 150, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 64, "frame": 6, "skip": 2, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 1, "skip": 7, "ftime": 140, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 1, "skip": 7, "ftime": 0, "usetick": 0}
+    },
+  "MA10":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 4, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 64, "frame": 6, "skip": 2, "ftime": 120, "usetick": 3},
+    "ActAttack": {"start": 128, "frame": 4, "skip": 4, "ftime": 150, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 192, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 208, "frame": 4, "skip": 4, "ftime": 140, "usetick": 0},
+    "ActDeath": {"start": 272, "frame": 1, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA11":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 120, "usetick": 3},
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 140, "usetick": 0},
+    "ActDeath": {"start": 340, "frame": 1, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA12":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 4, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 64, "frame": 6, "skip": 2, "ftime": 120, "usetick": 3},
+    "ActAttack": {"start": 128, "frame": 6, "skip": 2, "ftime": 150, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 192, "frame": 2, "skip": 0, "ftime": 150, "usetick": 0},
+    "ActDie": {"start": 208, "frame": 4, "skip": 4, "ftime": 160, "usetick": 0},
+    "ActDeath": {"start": 272, "frame": 1, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA13":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 10, "frame": 8, "skip": 2, "ftime": 160, "usetick": 0}, 
+    "ActAttack": {"start": 30, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 110, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 130, "frame": 10, "skip": 0, "ftime": 120, "usetick": 0},
+    "ActDeath": {"start": 20, "frame": 9, "skip": 0, "ftime": 150, "usetick": 0} 
+    },
+  "MA14":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 120, "usetick": 0},
+    "ActDeath": {"start": 340, "frame": 10, "skip": 0, "ftime": 100, "usetick": 0} 
+    },
+  "MA15":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 120, "usetick": 0},
+    "ActDeath": {"start": 1, "frame": 1, "skip": 0, "ftime": 100, "usetick": 0}
+    },
+  "MA16":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 160, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 4, "skip": 6, "ftime": 160, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 1, "skip": 0, "ftime": 160, "usetick": 0}
+    },
+  "MA17":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 60, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDeath": {"start": 340, "frame": 1, "skip": 0, "ftime": 140, "usetick": 0} 
+    },
+  "MA19":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 140, "usetick": 0},
+    "ActDeath": {"start": 340, "frame": 1, "skip": 0, "ftime": 140, "usetick": 0} 
+    },
+  "MA92":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 8, "skip": 2, "ftime": 140, "usetick": 0},
+    "ActDeath": {"start": 337, "frame": 1, "skip": 0, "ftime": 140, "usetick": 0} 
+    },
+  "MA258":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 7, "skip": 3, "ftime": 140, "usetick": 0},
+    "ActDeath": {"start": 336, "frame": 1, "skip": 0, "ftime": 140, "usetick": 0} 
+    },
+  "MA264":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 4, "skip": 6, "ftime": 140, "usetick": 0},
+    "ActDeath": {"start": 333, "frame": 1, "skip": 0, "ftime": 140, "usetick": 0} 
+    },
+  "MA20":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDeath": {"start": 340, "frame": 10, "skip": 0, "ftime": 170, "usetick": 0} 
+    },
+  "MA21":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}, 
+    "ActAttack": {"start": 10, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0}, 
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 20, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 30, "frame": 10, "skip": 0, "ftime": 160, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0} 
+    },
+  "MA22":   {
+    "ActStand": {"start": 80, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 160, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 240, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0}, 
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 320, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 340, "frame": 10, "skip": 0, "ftime": 160, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 6, "skip": 4, "ftime": 170, "usetick": 0} 
+    },
+  "MA23":   {
+    "ActStand": {"start": 20, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 100, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 180, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0}, 
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 260, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 280, "frame": 10, "skip": 0, "ftime": 160, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 20, "skip": 0, "ftime": 100, "usetick": 0} 
+    },
+  "MA24":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 240, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActStruck": {"start": 320, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 340, "frame": 10, "skip": 0, "ftime": 140, "usetick": 0},
+    "ActDeath": {"start": 420, "frame": 1, "skip": 0, "ftime": 140, "usetick": 0} 
+    },
+  "MA25":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 70, "frame": 10, "skip": 0, "ftime": 200, "usetick": 3},
+    "ActAttack": {"start": 20, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 10, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActStruck": {"start": 50, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 60, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDeath": {"start": 80, "frame": 10, "skip": 0, "ftime": 200, "usetick": 3}
+    },
+  "MA26":   {
+    "ActStand": {"start": 0, "frame": 1, "skip": 7, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 0, "skip": 0, "ftime": 160, "usetick": 0}, 
+    "ActAttack": {"start": 56, "frame": 6, "skip": 2, "ftime": 500, "usetick": 0}, 
+    "ActCritical": {"start": 64, "frame": 6, "skip": 2, "ftime": 500, "usetick": 0}, 
+    "ActStruck": {"start": 0, "frame": 4, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 24, "frame": 10, "skip": 0, "ftime": 120, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 150, "usetick": 0} 
+    },
+  "MA27":   {
+    "ActStand": {"start": 0, "frame": 1, "skip": 7, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 0, "skip": 0, "ftime": 160, "usetick": 0}, 
+    "ActAttack": {"start": 0, "frame": 0, "skip": 0, "ftime": 250, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 250, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 0, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 10, "skip": 0, "ftime": 120, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 150, "usetick": 0} 
+    },
+  "MA28":   {
+    "ActStand": {"start": 80, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 160, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 0, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 120, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 10, "skip": 0, "ftime": 100, "usetick": 0} 
+    },
+  "MA29":   {
+    "ActStand": {"start": 80, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 160, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 240, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 10, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActStruck": {"start": 320, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 340, "frame": 10, "skip": 0, "ftime": 120, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 10, "skip": 0, "ftime": 100, "usetick": 0} 
+    },
+  "MA30":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 10, "skip": 0, "ftime": 200, "usetick": 3},
+    "ActAttack": {"start": 10, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 10, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActStruck": {"start": 20, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 30, "frame": 20, "skip": 0, "ftime": 150, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 10, "skip": 0, "ftime": 200, "usetick": 3}
+    },
+  "MA31":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 10, "skip": 0, "ftime": 200, "usetick": 3},
+    "ActAttack": {"start": 10, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 2, "skip": 8, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 20, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 10, "skip": 0, "ftime": 200, "usetick": 3}
+    },
+  "MA32":   {
+    "ActStand": {"start": 0, "frame": 1, "skip": 9, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 6, "skip": 4, "ftime": 200, "usetick": 3},
+    "ActAttack": {"start": 0, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 2, "skip": 8, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 80, "frame": 10, "skip": 0, "ftime": 80, "usetick": 0},
+    "ActDeath": {"start": 80, "frame": 10, "skip": 0, "ftime": 200, "usetick": 3}
+    },
+  "MA33":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 200, "usetick": 3},
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 340, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDeath": {"start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0}
+    },
+  "MA34":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 200, "usetick": 3},
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 320, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActStruck": {"start": 400, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 420, "frame": 20, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDeath": {"start": 420, "frame": 20, "skip": 0, "ftime": 200, "usetick": 0}
+    },
+  "MA35":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActAttack": {"start": 30, "frame": 10, "skip": 0, "ftime": 150, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 1, "skip": 9, "ftime": 0, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA36":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActAttack": {"start": 30, "frame": 20, "skip": 0, "ftime": 150, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 1, "skip": 9, "ftime": 0, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA37":   {
+    "ActStand": {"start": 30, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActAttack": {"start": 30, "frame": 4, "skip": 6, "ftime": 150, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 1, "skip": 9, "ftime": 0, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA38":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActAttack": {"start": 80, "frame": 6, "skip": 4, "ftime": 150, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA39":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 300, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActAttack": {"start": 10, "frame": 6, "skip": 4, "ftime": 150, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 20, "frame": 2, "skip": 0, "ftime": 150, "usetick": 0},
+    "ActDie": {"start": 30, "frame": 10, "skip": 0, "ftime": 80, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA40":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 250, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 210, "usetick": 3},
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 110, "usetick": 0},
+    "ActCritical": {"start": 580, "frame": 20, "skip": 0, "ftime": 135, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 120, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 20, "skip": 0, "ftime": 130, "usetick": 0},
+    "ActDeath": {"start": 260, "frame": 20, "skip": 0, "ftime": 130, "usetick": 0}
+    },
+  "MA41":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActAttack": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA42":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 10, "frame": 8, "skip": 2, "ftime": 160, "usetick": 0},
+    "ActAttack": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDie": {"start": 30, "frame": 10, "skip": 0, "ftime": 120, "usetick": 0},
+    "ActDeath": {"start": 30, "frame": 10, "skip": 0, "ftime": 150, "usetick": 0}
+    },
+  "MA43":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 160, "usetick": 0},
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 160, "usetick": 0},
+    "ActCritical": {"start": 160, "frame": 6, "skip": 4, "ftime": 160, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 150, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 120, "usetick": 0},
+    "ActDeath": {"start": 340, "frame": 10, "skip": 0, "ftime": 100, "usetick": 0}
+    },
+  "MA44":   {
+    "ActStand": {"start": 0, "frame": 10, "skip": 0, "ftime": 300, "usetick": 0},
+    "ActWalk": {"start": 10, "frame": 6, "skip": 4, "ftime": 150, "usetick": 0},
+    "ActAttack": {"start": 20, "frame": 6, "skip": 4, "ftime": 150, "usetick": 0},
+    "ActCritical": {"start": 40, "frame": 10, "skip": 0, "ftime": 150, "usetick": 0},
+    "ActStruck": {"start": 40, "frame": 2, "skip": 8, "ftime": 150, "usetick": 0},
+    "ActDie": {"start": 30, "frame": 6, "skip": 4, "ftime": 150, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA45":   {
+    "ActStand": {"start": 0, "frame": 10, "skip": 0, "ftime": 300, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 10, "skip": 0, "ftime": 300, "usetick": 0},
+    "ActAttack": {"start": 10, "frame": 10, "skip": 0, "ftime": 300, "usetick": 0},
+    "ActCritical": {"start": 10, "frame": 10, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 1, "skip": 9, "ftime": 300, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 1, "skip": 9, "ftime": 300, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 1, "skip": 9, "ftime": 300, "usetick": 0}
+    },
+  "MA46":   {
+    "ActStand": {"start": 0, "frame": 20, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActAttack": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA47":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 200, "usetick": 3},
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 260, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 524, "frame": 6, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDeath": {"start": 524, "frame": 6, "skip": 0, "ftime": 200, "usetick": 0}
+    },
+          
+  "MA50":   {
+    "ActStand": {"Start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"Start": 350, "frame": 80, "skip": 0, "ftime": 120, "usetick": 0},
+    "ActAttack": {"Start": 30, "frame": 10, "skip": 0, "ftime": 150, "usetick": 0},
+    "ActCritical": {"Start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"Start": 0, "frame": 1, "skip": 9, "ftime": 0, "usetick": 0},
+    "ActDie": {"Start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDeath": {"Start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA54":   {
+    "ActStand": {"start": 0, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActAttack": {"start": 0, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA1":   {
+    "ActStand": {"start": 0, "frame": 1, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 1, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActAttack": {"start": 0, "frame": 1, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 1, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 1, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA56":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 6, "skip": 4, "ftime": 140, "usetick": 0},
+    "ActDeath": {"start": 340, "frame": 10, "skip": 0, "ftime": 140, "usetick": 0}
+    }, 
+  "MA102":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 140, "usetick": 0},
+    "ActDeath": {"start": 420, "frame": 6, "skip": 4, "ftime": 170, "usetick": 0}
+    }, 
+  "MA103":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 200, "usetick": 3},
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 340, "frame": 10, "skip": 0, "ftime": 120, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDeath": {"start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0}
+    },
+  "MA104":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 200, "usetick": 3},
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 340, "frame": 7, "skip": 3, "ftime": 120, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDeath": {"start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0}
+    },
+  "MA106":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 200, "usetick": 3},
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 340, "frame": 8, "skip": 2, "ftime": 120, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDeath": {"start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActAttack2": {"start": 420, "frame": 9, "skip": 1, "ftime": 120, "usetick": 0}
+    },
+  "MA107":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 200, "usetick": 3},
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 820, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDeath": {"start": 740, "frame": 6, "skip": 4, "ftime": 170, "usetick": 0},
+    "ActAttack2": {"start": 340, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0}
+    },
+  "MA108":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 4, "skip": 6, "ftime": 0, "usetick": 0},
+    "ActAttack": {"start": 10, "frame": 4, "skip": 6, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 10, "frame": 2, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDie": {"start": -20, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDeath": {"start": -20, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0}
+    },
+  "MA109":   {
+    "ActStand": {"start": 0, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 10, "frame": 10, "skip": 0, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 20, "frame": 10, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 30, "frame": 4, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 40, "frame": 10, "skip": 0, "ftime": 140, "usetick": 0},
+    "ActDeath": {"start": 40, "frame": 10, "skip": 0, "ftime": 140, "usetick": 0} 
+    },
+  "MA110":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 200, "usetick": 3},
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 580, "frame": 6, "skip": 4, "ftime": 150, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDeath": {"start": 420, "frame": 1, "skip": 9, "ftime": 200, "usetick": 0}
+    },
+    
+ "MA151":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 200, "usetick": 3},
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 340, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDeath": {"start": 740, "frame": 4, "skip": 6, "ftime": 170, "usetick": 0}
+    },
+  "MA112":   {
+    "ActStand": {"start": 0, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 10, "frame": 4, "skip": 6, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 0, "frame": 10, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 10, "frame": 4, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDie": {"start": 20, "frame": 10, "skip": 0, "ftime": 140, "usetick": 0},
+    "ActDeath": {"start": 20, "frame": 10, "skip": 0, "ftime": 140, "usetick": 0} 
+    },
+  "MA113":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 200, "usetick": 3},
+    "ActRun": {"start": 340, "frame": 6, "skip": 4, "ftime": 200, "usetick": 3},
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 420, "frame": 10, "skip": 0, "ftime": 120, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDeath": {"start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0}
+    },
+  "MA114":   {
+    "ActStand": {"start": 0, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 160, "usetick": 3}, 
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 140, "usetick": 0},
+    "ActDeath": {"start": 260, "frame": 10, "skip": 0, "ftime": 140, "usetick": 0} 
+    },
+  "MA115":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 80, "frame": 6, "skip": 4, "ftime": 200, "usetick": 3},
+    "ActAttack": {"start": 160, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"start": 340, "frame": 8, "skip": 2, "ftime": 120, "usetick": 0},
+    "ActStruck": {"start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDeath": {"start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActAttack2": {"start": 420, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0}
+    },
+  "MA60":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 100, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 4, "skip": 6, "ftime": 100, "usetick": 0},
+    "ActAttack": {"start": 0, "frame": 4, "skip": 6, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 4, "skip": 6, "ftime": 100, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 4, "skip": 6, "ftime": 100, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA81":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActAttack": {"start": 10, "frame": 10, "skip": 0, "ftime": 150, "usetick": 0},
+    "ActCritical": {"start": 10, "frame": 10, "skip": 0, "ftime": 150, "usetick": 0},
+    "ActStruck": {"start": 10, "frame": 10, "skip": 0, "ftime": 150, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA84":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActAttack": {"start": 4, "frame": 7, "skip": 3, "ftime": 150, "usetick": 0},
+    "ActCritical": {"start": 22, "frame": 8, "skip": 2, "ftime": 0, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 1, "skip": 9, "ftime": 0, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA101":   {
+    "ActStand": {"start": 0, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActAttack": {"start": 10, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 0, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+  "MA210":   {
+    "ActStand": {"start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActAttack": {"start": 30, "frame": 10, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActCritical": {"start": 0, "frame": 0, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActStruck": {"start": 0, "frame": 0, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDie": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0},
+    "ActDeath": {"start": 0, "frame": 0, "skip": 0, "ftime": 0, "usetick": 0}
+    },
+         
+  "MA155a":   {
+    "ActStand": {"Start": 0, "frame": 4, "skip": 6, "ftime": 200, "usetick": 0},
+    "ActWalk": {"Start": 80, "frame": 6, "skip": 4, "ftime": 200, "usetick": 3},
+    "ActAttack": {"Start": 160, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActCritical": {"Start": 340, "frame": 6, "skip": 4, "ftime": 120, "usetick": 0},
+    "ActStruck": {"Start": 240, "frame": 2, "skip": 0, "ftime": 100, "usetick": 0},
+    "ActDie": {"Start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0},
+    "ActDeath": {"Start": 260, "frame": 10, "skip": 0, "ftime": 200, "usetick": 0}
+    }
+}    

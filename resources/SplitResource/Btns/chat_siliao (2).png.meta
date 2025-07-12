@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.25",
+  "importer": "image",
+  "imported": true,
+  "uuid": "03652180-6349-4342-83e7-8ee1ea1d4bcb",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "03652180-6349-4342-83e7-8ee1ea1d4bcb@6c48a",
+      "displayName": "chat_siliao (2)",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "03652180-6349-4342-83e7-8ee1ea1d4bcb",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "03652180-6349-4342-83e7-8ee1ea1d4bcb@f9941",
+      "displayName": "chat_siliao (2)",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 1,
+        "offsetY": 0,
+        "trimX": 6,
+        "trimY": 0,
+        "width": 57,
+        "height": 67,
+        "rawWidth": 67,
+        "rawHeight": 67,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -28.5,
+            -33.5,
+            0,
+            28.5,
+            -33.5,
+            0,
+            -28.5,
+            33.5,
+            0,
+            28.5,
+            33.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            6,
+            67,
+            63,
+            67,
+            6,
+            0,
+            63,
+            0
+          ],
+          "nuv": [
+            0.08955223880597014,
+            0,
+            0.9402985074626866,
+            0,
+            0.08955223880597014,
+            1,
+            0.9402985074626866,
+            1
+          ],
+          "minPos": [
+            -28.5,
+            -33.5,
+            0
+          ],
+          "maxPos": [
+            28.5,
+            33.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "03652180-6349-4342-83e7-8ee1ea1d4bcb@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": true,
+    "hasAlpha": true,
+    "redirect": "03652180-6349-4342-83e7-8ee1ea1d4bcb@f9941"
+  }
+}
